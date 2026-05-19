@@ -1,0 +1,20 @@
+{
+  "best_k": 4,
+  "silhouette": 0.41825138422482777,
+  "features": [
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges",
+    "ServiceCount",
+    "AvgChargePerTenure",
+    "SeniorCitizen",
+    "HasInternet",
+    "IsMonthToMonth"
+  ],
+  "segment_names": {
+    "0": "Month-to-Month Volatile",
+    "1": "Loyal Long-Tenure",
+    "2": "Standard Mixed",
+    "3": "Month-to-Month Volatile"
+  }
+}

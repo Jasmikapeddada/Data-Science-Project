@@ -1,0 +1,30 @@
+{
+  "champion": "logistic_regression",
+  "logistic_regression": {
+    "model": "logistic_regression",
+    "accuracy": 0.7381121362668559,
+    "precision": 0.504302925989673,
+    "recall": 0.7834224598930482,
+    "f1": 0.6136125654450262,
+    "roc_auc": 0.8416182283189957,
+    "churners_in_top_pct": 0.4946524064171123,
+    "top_pct_used": 0.2,
+    "cv_recall_mean": 0.8033444816053512
+  },
+  "random_forest": {
+    "model": "random_forest",
+    "accuracy": 0.7764371894960965,
+    "precision": 0.5662921348314607,
+    "recall": 0.6737967914438503,
+    "f1": 0.6153846153846154,
+    "roc_auc": 0.8343163088687385,
+    "churners_in_top_pct": 0.4946524064171123,
+    "top_pct_used": 0.2
+  },
+  "rf_best_params": {
+    "class_weight": "balanced",
+    "max_depth": 12,
+    "min_samples_split": 5,
+    "n_estimators": 100
+  }
+}
